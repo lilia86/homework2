@@ -1,0 +1,14 @@
+{
+    "name": "root/homework2",
+    "require": {
+        "jpgraph/jpgraph": "dev-master",
+        "nesbot/carbon": "1.21.0",
+        "fzaninotto/faker": "v1.6.0"
+    },
+    "authors": [
+        {
+            "name": "lilia86",
+            "email": "liliagirl@mail.ru"
+        }
+    ]
+}
