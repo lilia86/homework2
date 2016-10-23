@@ -16,6 +16,12 @@
 
     $dt = Carbon::now()->toFormattedDateString();
 
+   $graph = new Graph(400, 300, 'auto', 10, true);
+   $graph->SetScale('textlin');
+   $lineplot = new LinePlot($rate, $time);
+   $lineplot->SetColor('forestgreen');
+   $graph->Add($lineplot);
+   $graph->title->Set($dt);
 
 
 
